@@ -1,0 +1,160 @@
+.w15{
+    width: 15%;
+}
+.w25 {
+    width: 25%;
+}
+.w33 {
+    width: 33%;
+}
+.w50{
+    width: 50%;
+}
+.w66{
+    width: 66%;
+}
+.w75 {
+    width: 75%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.centrartexto {
+    text-align: center;
+}
+.fondo{
+    padding: 15px;
+    border-radius: 1rem;
+    margin-bottom: 50px;
+    border: 2px black solid;
+    background-color: lightgray;
+}
+.fondonav{
+    padding: 15px;
+    border-radius: 1rem;
+    border: 2px black solid;
+    background-color: lightgray;
+}
+.spaceevenly{
+    justify-content: space-evenly;    
+}
+.separartop{
+    margin-top: 25px;
+}
+.separarbottom{
+    margin-bottom: 25px;
+}
+.centrarw25{
+    margin-left: 665px;
+}
+.centrarw50{
+    margin-left: 425px;
+}
+.fontweight{
+    font-weight: bold;
+}
+.listas {
+    align-items: end;
+    margin-left: 140px;
+}
+.separarsubmenu{
+    margin-top: 5px;
+}
+.img{
+    width: 535px;
+    height: 360px;
+}
+.fontsafe{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-decoration: underline;
+}
+body{
+    margin: 0px;
+}
+nav{
+    justify-content: end;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li ul li{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+nav li ul{
+    display: none;
+    min-width: 140px;
+    position: absolute;
+    background-color: white;
+    border-radius: 1rem;
+}
+nav li:hover>ul{
+    display: block;
+    padding: 10px;
+    border: 1px solid;
+}
+nav li a:hover{
+    background-color: beige;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    background-color: rgb(130, 182, 199);
+    border-bottom: 2px black solid;
+    border-top: 2px black solid;
+}
+main div div img{
+    width: 450px;
+    height: 300px;
+}
+footer {
+    padding-top: 10px;
+}
+footer div div img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+footer div div p {
+    margin-right: 10px;
+}
+h2{
+    font-size: 20px;
+}
+label, input{
+    margin-bottom: 7px;
+}
+#logo{
+    width: 200px;
+    height: 70px;
+}
+#redes{
+    margin-right: 600px;
+}
+#objetivo {
+    margin-bottom: 50px;
+}
+#quehay{
+    margin-left: 425px;
+    margin-bottom: 75px
+}
+#quehay p{
+    margin-left: 15px;
+    padding-bottom: 7px;
+}
+#imgong{
+    width: 250px;
+    height: 225px;
+}
+#form{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asociate</title>
+    <link rel="stylesheet" href="../CSS/cssong.css">
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="w66">
+                <img id="logo" src="../Imagenes/unicef.png" alt="logo ong">
+            </div>
+            <nav class="w33 row">
+                <ul class="fondonav">
+                    <li><a href="http://127.0.0.1:3000/HTML/principal.html">Menú principal</a>
+                        <ul>
+                            <li class="separarsubmenu"><a href="http://127.0.0.1:3000/HTML/principal.html#objetivo">Objetivo de nuestra ONG</a></li>
+                            <li class="separarsubmenu"><a href="http://127.0.0.1:3000/HTML/principal.html#quehay">Que hay en nuestra web</a></li>
+                            <li class="separarsubmenu"><a href="http://127.0.0.1:3000/HTML/principal.html#actividadesnoticias">Actividades y Noticias</a></li>
+                            <li class="separarsubmenu"><a href="http://127.0.0.1:3000/HTML/principal.html#otros">Otros</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://127.0.0.1:3000/HTML/actividades.html">Actividades</a></li>
+                    <li><a href="http://127.0.0.1:3000/HTML/noticias.html">Notícias</a></li>
+                    <li><a href="http://127.0.0.1:3000/HTML/asociate.html">Formulario</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="centrartexto">
+        <h1>Asociate a Unicef</h1>
+        <p class="w50 fondo centrarw50">Únete a UNICEF y sé la diferencia en la vida de millones de niños. Tu apoyo brinda educación, atención médica y protección. Forma parte de una red global que trabaja por un mundo donde cada niño tenga oportunidades justas. ¡Haz el cambio, únete a UNICEF y construye un futuro lleno de esperanza para todos los niños del mundo!</p>
+        <form id="form" class="w25 fondo centrarw25">
+            <label class="fontweight" for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" maxlength="20" required><br>
+            <label class="fontweight" for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" maxlength="15" required><br>
+            <label class="fontweight" for="tratamiento" aria-required="true">Tratamiento:</label>
+            <label for="sr">Sr.</label>
+            <input type="radio" name="tratamiento" id="sr">
+            <label for="sra">Sra.</label>
+            <input type="radio" name="tratamiento" id="sra">
+            <label for="sintrtamiento">Sin Tratamiento</label>
+            <input type="radio" name="tratamiento" id="sintrtamiento"><br>
+            <label class="fontweight" for="codigopostal">Código Postal: </label>
+            <input type="number" name="codigopostal" id="codigopostal" required><br>
+            <label class="fontweight" for="telefono">Telefono:</label>
+            <input type="number" name="telefono" id="telefono"><br>
+            <label class="fontweight" for="email">Email:</label>
+            <input type="email" name="email" id="email" required><br>
+            <label class="fontweight" for="cuota">Cuota:</label>
+            <select name="cuota" id="cuota" required>
+                <option value=""></option>
+                <option value="5">5€</option>
+                <option value="10">10€</option>
+                <option value="25">25€</option>
+                <option value="50">50€</option>
+            </select><br><br>
+            <label class="fontweight" for="temasinteres">Temas de Interes:</label><br>
+            <label for="asiaorientalpacifico">Asia Oriental y el Pacífico</label>
+            <input type="checkbox" name="temasinteres" id="asiaorientalpacifico"><br>
+            <label for="afircaorienmeridio">África oriental y meridional</label>
+            <input type="checkbox" name="temasinteres" id="afircaorienmeridio"><br>
+            <label for="europaasiacentral">Europa y Asia Central</label>
+            <input type="checkbox" name="temasinteres" id="europaasiacentral"><br>
+            <label for="americalatinacaribe">América Latina y el Caribe</label>
+            <input type="checkbox" name="temasinteres" id="americalatinacaribe"><br>
+            <label for="orienteafircanorte">Oriente Medio y África del Norte</label>
+            <input type="checkbox" name="temasinteres" id="orienteafircanorte"><br>
+            <label for="asiameridional">Asia Meridional</label>
+            <input type="checkbox" name="temasinteres" id="asiameridional"><br>
+            <label for="africaoccidentecentral">África Occidental y Central</label>
+            <input type="checkbox" name="temasinteres" id="africaoccidentecentral"><br><br>
+            <label class="fontweight" for="privacidad">Accepta la politica de privacidad:</label>
+            <input type="radio" name="privacidad" id="privacidad" required><br>
+            <label for="suscripcion">Suscribete a Newslettter:</label>
+            <input type="checkbox" name="suscripcion" id="suscripcion">
+        </form>
+    </main>
+    <footer>
+        <div class="row">
+            <div id="redes" class="w50 row">
+                <a href="https://www.instagram.com/unicef_es/?hl=es" target="_blank"><img src="../Imagenes/insta.png" alt="instagram"></a>
+                <a href="https://twitter.com/unicef_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="../Imagenes/x.png" alt="x"></a>
+                <div class="row">
+                    <img src="../Imagenes/gmail.png" alt="correo">
+                    <p>socios@unicef.es</p>
+                </div>
+                <div class="row">
+                    <img src="../Imagenes/tel.png" alt="telefono">
+                    <p class="">900 907 074</p>
+                </div>
+            </div>
+            <div class="25" id="logo">
+                <img id="logo" src="../Imagenes/unicef.png" alt="logo ong">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
